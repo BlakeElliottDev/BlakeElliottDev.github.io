@@ -5,13 +5,13 @@ Hello, I'm Blake. I am currently studying a degree in technical art for games an
 2024-2028 - technical art for games & film Bsc - escape studios
 Currently on track for a 2:1 
 
-###Skills
+##Skills
 - Python
 - C++
 - OpenGL and GLSL
 - Agile Methodologies
 
-###Passions
+##Passions
 - Learning
 - Problem Solving
 - Optimization
