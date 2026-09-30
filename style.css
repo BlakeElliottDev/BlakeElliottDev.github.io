@@ -97,35 +97,92 @@ nav .right a span {
     
 }
 
+
+/* Section 3: Skills */
+
+.Skills{
+    padding: 0 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.Skills h2{
+    font-size: 35px;
+}
+
+.Skills .text {
+    margin-bottom: 20px;
+}
+
+.Skills .cells{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Skills .cells .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid silver;
+    border-radius: 7px;
+}
+.Skills .cells .cell img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 2px;
+    margin-right: 50px;
+}
 @media (max-width:800px){
+
+    /* NAVBAR */
+     nav .right a span{
+        display: none;
+         transition: 2s;
+    }
+
     /* Section 1: About */
     .About {
         flex-direction: column-reverse;
+         transition: 2s;
     }
     .About .text {
         font-size: 20px;
+         transition: 2s;
     }
     .About .picture img {
         width:300px;
+         transition: 2s;
     }
+
 }
 
 @media (max-width:600px){
     /* NAVBAR */
     nav {
         padding: 0, 20px;
+        transition: 2s;
 
     }
 
     nav .left a{
         font-size: 32px;
+         transition: 2s;
     }
     nav .right a {
         font-size: 22px;
+         transition: 2s;
     }
 
-    nav .right a span{
-        display: none;
+   
+
+    .About {
+        padding: 0 20px;
+         transition: 2s;
     }
 
 }
