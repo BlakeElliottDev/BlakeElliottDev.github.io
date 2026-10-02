@@ -112,6 +112,7 @@ nav .right a span {
 
 .Skills .text {
     margin-bottom: 20px;
+    font-size: 26px;
 }
 
 .Skills .cells{
@@ -124,18 +125,19 @@ nav .right a span {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 250px;
+    width: 200px;
     padding: 10px 20px;
     margin: 10px;
     border: 2px solid silver;
-    border-radius: 7px;
+    border-radius: 12px;
 }
+
 .Skills .cells .cell img {
     width: 50px;
     height: 50px;
     object-fit: contain;
     border-radius: 2px;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 @media (max-width:800px){
 
@@ -159,6 +161,36 @@ nav .right a span {
          transition: 2s;
     }
 
+    /* Section 3: Skills */
+    .Skills {
+        flex-direction: column-reverse;
+         transition: 2s;
+    }
+
+    .Skills .text {
+        font-size: 20px;
+         transition: 2s;
+    }
+
+    .Skills .cells .cell {
+        width: 150px;
+        transition: 2s;
+    }
+
+    .Skills .cells .cell img {
+        width: 25px;
+        height: 25px;
+        object-fit: contain;
+        border-radius: 2px;
+        margin-right: 25px;
+         transition: 2s;
+    }
+
+    .Skills .cells .cell span {
+        font-size: 12px;
+        transition: 2s;
+    }
+
 }
 
 @media (max-width:600px){
@@ -179,10 +211,16 @@ nav .right a span {
     }
 
    
-
+    /* Section 1: About */
     .About {
         padding: 0 20px;
-         transition: 2s;
+        transition: 2s;
     }
 
+    
+    /* Section 3: Skills */
+    .Skills {
+        padding: 0 20px;
+        transition: 2s;
+    }
 }
