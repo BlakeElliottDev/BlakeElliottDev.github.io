@@ -174,9 +174,20 @@ nav .right a span {
          transition: 2s;
     }
 
-    /* Section 2: Education */
-    .Education .text {
+     /* Section 2: Education */
 
+    .Education {
+        text-align: center;
+        margin-bottom: 100px;
+        font-size: 20px;
+        transition: 2s;
+    }
+
+    .Education .text {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 20px;
+        transition: 2s;
     }
 
     /* Section 3: Skills */
@@ -228,6 +239,7 @@ nav .right a span {
          transition: 2s;
     }
 
+    
    
     /* Section 1: About */
     .About {
@@ -235,7 +247,11 @@ nav .right a span {
         transition: 2s;
     }
 
-    
+    /* Section 2: Education */
+    .Education {
+        padding: 0 20px;
+        transition: 2s;
+    }
     /* Section 3: Skills */
     .Skills {
         padding: 0 20px;
